@@ -24,7 +24,7 @@ Also Github edition with fixed links and added some files!
  - [Rush Patches](https://github.com/WH0LEWHALE/gtav-build-guide/files/14641602/rush_patches-master.zip)
  - [DLL Patches](https://github.com/WH0LEWHALE/gtav-build-guide/files/14641382/dll_patches.zip)
 
-## Prebuilt files
+## Prebuilt Files
  - [Shaders](https://qiwi.gg/file/p7hu4286-common)
  - [Scripts](https://drive.google.com/file/d/1AVMC_MBPpqKp0BIrOI-_lLq98QmwRn46/view)
 
@@ -59,12 +59,12 @@ setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 ```
 10. To ensure changes are finalized, restart build machine
 
-## Patching the source code
+## Patching The Source Code
 1. Open `rush_patches-master.zip`
 2. Copy `game` and `rage` folders to `X:\gta5\src\dev_ng`, make sure to overwrite when copying
 3. (OPTIONAL) To skip launcher requirement for running the game, copy `game` and `rage` folders from `OPTIONAL_FIXES` to the same folder
 
-## Building the game binary
+## Building The Game Binary
 1. Run `X:\gta5\src\dev_ng\game\VS_Project\load_sln_unity_2012.bat`
 	- If prompted with "How do you want to open this file?", check "Always use this app to open .sln files" and click OK
 2. Once the solution loads, open the dropdown menu that says "Debug" at the top, select "Configuration Manager"
@@ -82,7 +82,7 @@ setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 > [!NOTE]
 >	Building shaders and scripts can be skipped using the prebuilt files above. These steps are here to allow modding or for those who prefer to build from source as much as possible.
 
-## Building shaders
+## Building Shaders
 1. Under "Shaders", right click the "shaders_rc" project and click "Build"
 2. (OPTIONAL) Build low quality shaders
 	1. Right click the "shaders_rc" project and click "Properties"
@@ -91,7 +91,7 @@ setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 	4. Rebuild shaders
 3. Copy `X:\gta5\titleupdate\dev_ng\common` to game directory
 
-## Building game scripts
+## Building Game Scripts
 1. Open Command Prompt
 2. Run the following commands:
 ```batch
@@ -104,7 +104,7 @@ ragScriptEditor
 3. In the editor, select `File > Open Project` and open `X:\gta5\script\dev_ng\singleplayer\GTA5_SP.scproj`
 4. Select `Compiling > Intellibuild > Build Project`
 
-## Patching game assets
+## Patching Game Assets
 1. Run OpenIV, select "Windows"
 2. Select the game folder and click "Continue"
 3. Open `GTA V\update\update2.rpf\x64\levels\gta5\script`
@@ -120,7 +120,7 @@ ragScriptEditor
 8. Open `<GAME FOLDER>\update`, and drag `update.rpf` and `update2.rpf` onto `ArchiveFix.exe`
 9. Close both windows
 
-## Running the game
+## Running The Game
 1. In the game directory, create a file named `launch.bat` and add these contents:
 ```batch
 cd %~dp0
