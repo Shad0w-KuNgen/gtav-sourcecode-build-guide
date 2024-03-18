@@ -1,8 +1,7 @@
 # GTA V Build Guide
 
-Based on original Pastebin guide and assistance from various individuals.
-Original build guide: https://rentry.co/gtavbuildguide<br>
-Also Github edition and fixed some links!
+Based on original Pastebin guide and assistance from various individuals.<br>
+Also Github edition with fixed links and added some files!
 
 ## Requirements
   - GTAVSP.7z<br>
@@ -19,7 +18,7 @@ Also Github edition and fixed some links!
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
  - Minimum 150GB Free Space
- - Latest GTA V Files from Steam, Epic Games or Social Club (minimum 2699)
+ - Latest GTA V Files from Steam, Epic Games or Social Club ( Minimum v2699 )
  - [update.rpf and update2.rpf from GTA V build 2699](https://mega.nz/folder/O1UFlaAB#mqhLDQT7p77sMUnANJDjmA/file/Ph9FlQSK)
  - [Rush Patches](https://qiwi.gg/file/6JD74500-rushpatches-master)
  - [DLL Patches](https://github.com/WH0LEWHALE/gtav-build-guide/files/14641382/dll_patches.zip)
