@@ -11,14 +11,14 @@ Also Github edition and fixed some links!
  You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
  To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`<br>
  Archive password: `Mi76#b>9mRed`
- - Windows 10/11 ([LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended)
+ - Windows 10/11 ( [Enterprise LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended )
  - [Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso)
  - [Update 4 for Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012%20Update%204/mu_visual_studio_2012_update_4_x86_dvd_3161759.iso)
  - [DirectX SDK June 2010](https://download.microsoft.com/download/A/E/7/AE743F1F-632B-4809-87A9-AA1BB3458E31/DXSDK_Jun10.exe)
- - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/) (Only needed for compiling shaders)
+ - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/) ( Only needed for compiling shaders and scripts )
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
- - Minimum 50GB free space
+ - Minimum 150GB Free Space
  - Latest GTA V Files from Steam, Epic Games or Social Club (minimum 2699)
  - [update.rpf and update2.rpf from GTA V build 2699](https://mega.nz/folder/O1UFlaAB#mqhLDQT7p77sMUnANJDjmA/file/Ph9FlQSK)
  - [Rush Patches](https://qiwi.gg/file/6JD74500-rushpatches-master)
@@ -35,7 +35,7 @@ Also Github edition and fixed some links!
 1. Install Visual Studio 2012
 	- Uncheck all optional components in the installer **except "Microsoft Foundation Classes for C++"** to save space, none of them are needed for the build.
 2. Install Update 4 for Visual Studio 2012
-3. Install Incredibuild 4.0 (Only needed for compiling shaders)
+3. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
 	- If you encounter the error that the installer is "Blocked by your administrator", follow these steps:
 		1. Hold Shift and right click the `incredibuild4_0.exe` file, select "Copy as path"
 		2. Open Command Prompt as Administrator
