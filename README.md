@@ -65,7 +65,7 @@ setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 3. (OPTIONAL) To skip launcher requirement for running the game, copy `game` and `rage` folders from `OPTIONAL_FIXES` to the same folder
 
 ## Building the game binary
-1. Run `X:\gta5\src\dev_ng\game\VS_Project\load_sln_unity_2012.bat` and press enter when you see `WARNING:`
+1. Run `X:\gta5\src\dev_ng\game\VS_Project\load_sln_unity_2012.bat`
 	- If prompted with "How do you want to open this file?", check "Always use this app to open .sln files" and click OK
 2. Once the solution loads, open the dropdown menu that says "Debug" at the top, select "Configuration Manager"
 3. Change "Active Solution Platform" to "x64" and close the configuration window
