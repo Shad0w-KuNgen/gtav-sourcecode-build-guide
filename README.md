@@ -3,7 +3,7 @@
 Based on original Pastebin guide and assistance from various individuals.<br>
 Also Github edition with fixed links and added some files!
 
-## Requirements
+## Requirements | Prerequisites
  - Windows 10/11 ( [Enterprise LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended )
    - For activating Windows, Go to: ["activatewindows.md"](https://github.com/WH0LEWHALE/gtav-build-guide/blob/main/activatewindows.md) 
  - [Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso)
