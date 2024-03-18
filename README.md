@@ -4,12 +4,6 @@ Based on original Pastebin guide and assistance from various individuals.<br>
 Also Github edition with fixed links and added some files!
 
 ## Requirements
-  - GTAVSP.7z<br>
- Torrent Magnet: `magnet:?xt=urn:btih:BYLBB5OGQG56R2II3W37OPOISCEZTFHU`<br>
- *You can use QBittorent for downloading the source code.*<br>
- You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
- To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`<br>
- Archive password: `Mi76#b>9mRed`
  - Windows 10/11 ( [Enterprise LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended )
    - For activating Windows, Go to: ["activatewindows.md"](https://github.com/WH0LEWHALE/gtav-build-guide/blob/main/activatewindows.md) 
  - [Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso)
@@ -19,6 +13,12 @@ Also Github edition with fixed links and added some files!
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
  - Minimum 150GB Free Space
+ - GTAVSP.7z<br>
+ Torrent Magnet: `magnet:?xt=urn:btih:BYLBB5OGQG56R2II3W37OPOISCEZTFHU`<br>
+ *You can use QBittorent for downloading the source code.*<br>
+ You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
+ To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`<br>
+ Archive password: `Mi76#b>9mRed`
  - Latest GTA V Files from Steam, Epic Games or Social Club ( Minimum v2699 )
  - [update.rpf and update2.rpf from GTA V build 2699](https://mega.nz/folder/O1UFlaAB#mqhLDQT7p77sMUnANJDjmA/file/Ph9FlQSK)
  - [Rush Patches](https://github.com/WH0LEWHALE/gtav-build-guide/files/14641602/rush_patches-master.zip)
