@@ -4,7 +4,7 @@
 Github edition with fixed links and added some files!<br>Based on this [rentry.co](rentry.co/bettergtavbuildguide) tutorial.
 
 
-## Requirements | Prerequisites
+## Requirements
  - Minimum 150GB Free Space
 ### Base
  - GTA V Files from Steam, Epic Games or Social Club (Minimum v2699)
