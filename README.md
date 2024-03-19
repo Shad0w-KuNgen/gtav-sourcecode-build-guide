@@ -4,23 +4,28 @@ Based on original Pastebin guide and assistance from various individuals.<br>
 Also Github edition with fixed links and added some files!
 
 ## Requirements | Prerequisites
- - Windows 10/11 ( [Enterprise LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended )
+ - Minimum 150GB Free Space
+### Base
+ - GTA V Files from Steam, Epic Games or Social Club (Minimum v2699)
+ - GTAVSP.7z<br>
+ Torrent Magnet: `magnet:?xt=urn:btih:BYLBB5OGQG56R2II3W37OPOISCEZTFHU` (You need [QBittorent](https://www.qbittorrent.org/download) for downloading source code with torrent.)<br>
+ Download Link: https://cyberfile.me/7bu8<br>
+ You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
+ To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`<br>
+ Archive password: `Mi76#b>9mRed`
+ - [update.rpf and update2.rpf from GTA V build 2699](https://mega.nz/folder/O1UFlaAB#mqhLDQT7p77sMUnANJDjmA/file/Ph9FlQSK)
+
+### Dependencies
+ - Windows 10/11 ([Enterprise LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended)
    - For activating Windows, See: ["activatewindows.md"](https://github.com/WH0LEWHALE/gtav-build-guide/blob/main/misc/activatewindows.md) 
  - [Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso)
  - [Update 4 for Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012%20Update%204/mu_visual_studio_2012_update_4_x86_dvd_3161759.iso)
  - [DirectX SDK June 2010](https://download.microsoft.com/download/A/E/7/AE743F1F-632B-4809-87A9-AA1BB3458E31/DXSDK_Jun10.exe)
- - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/) ( Only needed for compiling shaders and scripts )
+ - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/) (Only needed for compiling shaders and scripts)
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
- - Minimum 150GB Free Space
- - QBittorent ( Only needed for downloading the source code )
- - GTAVSP.7z<br>
- Torrent Magnet: `magnet:?xt=urn:btih:BYLBB5OGQG56R2II3W37OPOISCEZTFHU`<br>
- You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
- To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`<br>
- Archive password: `Mi76#b>9mRed`
- - Latest GTA V Files from Steam, Epic Games or Social Club ( Minimum v2699 )
- - [update.rpf and update2.rpf from GTA V build 2699](https://mega.nz/folder/O1UFlaAB#mqhLDQT7p77sMUnANJDjmA/file/Ph9FlQSK)
+
+### Miscellaneous
  - [Rush Patches](https://github.com/WH0LEWHALE/gtav-build-guide/files/14641602/rush_patches-master.zip)
  - [DLL Patches](https://github.com/WH0LEWHALE/gtav-build-guide/files/14641382/dll_patches.zip)
 
