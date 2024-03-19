@@ -25,7 +25,7 @@ Also Github edition with fixed links and added some files!
  - [DLL Patches](https://github.com/WH0LEWHALE/gtav-build-guide/files/14641382/dll_patches.zip)
 
 ## Prebuilt Files
- - ~~[Shaders](https://qiwi.gg/file/p7hu4286-common)~~ *DOWN*
+ - [Shaders](https://qiwi.gg/file/p7hu4286-common)
  - [Scripts](https://drive.google.com/file/d/1AVMC_MBPpqKp0BIrOI-_lLq98QmwRn46/view)
 
 > [!NOTE]
