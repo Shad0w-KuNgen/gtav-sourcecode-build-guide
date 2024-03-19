@@ -8,8 +8,7 @@ Also Github edition with fixed links and added some files!
 ### Base
  - GTA V Files from Steam, Epic Games or Social Club (Minimum v2699)
  - GTAVSP.7z<br>
- Torrent Magnet: `magnet:?xt=urn:btih:BYLBB5OGQG56R2II3W37OPOISCEZTFHU` <br> *(You need [QBittorent](https://www.qbittorrent.org/download) for downloading source code with torrent.)*<br>
- Download Link: https://cyberfile.me/7bu8<br>
+ **Want to get the source code? See [Here](https://github.com/WH0LEWHALE/gtav-build-guide/blob/main/misc/gtavsourcecode) for the links.**<br>
  You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
  To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`<br>
  Archive password: `Mi76#b>9mRed`
