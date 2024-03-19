@@ -1,5 +1,5 @@
 ![Icon](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/39674bde-9c2e-4800-99e5-7fc3a05a08f4)
-# GTA V Modified Build Guide
+# GTA V Modified Source Code Build Guide
 
 Github edition with fixed links and added some files!<br>Based on this [rentry.co](rentry.co/bettergtavbuildguide) tutorial.
 
