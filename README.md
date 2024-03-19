@@ -13,7 +13,7 @@ Also Github edition with fixed links and added some files!
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
  - Minimum 150GB Free Space
- - QBittorent ( Only for downloading the source code)
+ - QBittorent ( Only needed for downloading the source code )
  - GTAVSP.7z<br>
  Torrent Magnet: `magnet:?xt=urn:btih:BYLBB5OGQG56R2II3W37OPOISCEZTFHU`<br>
  You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
