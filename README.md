@@ -1,4 +1,4 @@
-![Icon](https://github.com/WH0LEWHALE/gtav-build-guide/assets/146978592/39674bde-9c2e-4800-99e5-7fc3a05a08f4)
+![Icon](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/39674bde-9c2e-4800-99e5-7fc3a05a08f4)
 # GTA V Modified Build Guide
 
 Github edition with fixed links and added some files!<br>Based on this [rentry.co](rentry.co/bettergtavbuildguide) tutorial.
@@ -9,7 +9,7 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
 ### Base
  - GTA V Files from Steam, Epic Games or Social Club (Minimum v2699)
  - GTAVSP.7z<br>
- **Want to get the source code? See [Here](https://github.com/WH0LEWHALE/gtav-build-guide/blob/main/misc/gtavsourcecode) for the links.**<br>
+ **Want to get the source code? See [Here](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/blob/main/misc/gtavsourcecode) for the links.**<br>
  You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
  To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`<br>
  Archive password: `Mi76#b>9mRed`
@@ -17,7 +17,7 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
 
 ### Dependencies
  - Windows 10/11 ([Enterprise LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended)
-   - For activating Windows, See: ["activatewindows.md"](https://github.com/WH0LEWHALE/gtav-build-guide/blob/main/misc/activatewindows.md) 
+   - For activating Windows, See: ["activatewindows.md"](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/blob/main/misc/activatewindows.md) 
  - [Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso)
  - [Update 4 for Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012%20Update%204/mu_visual_studio_2012_update_4_x86_dvd_3161759.iso)
  - [DirectX SDK June 2010](https://download.microsoft.com/download/A/E/7/AE743F1F-632B-4809-87A9-AA1BB3458E31/DXSDK_Jun10.exe)
@@ -26,11 +26,11 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
 
 ### Miscellaneous
- - [Rush Patches](https://github.com/WH0LEWHALE/gtav-build-guide/files/14641602/rush_patches-master.zip)
- - [DLL Patches](https://github.com/WH0LEWHALE/gtav-build-guide/files/14641382/dll_patches.zip)
+ - [Rush Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641602/rush_patches-master.zip)
+ - [DLL Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641382/dll_patches.zip)
 
 ## Prebuilt Files
- - [Shaders](https://github.com/WH0LEWHALE/gtav-build-guide/files/14649717/common.zip)
+ - [Shaders](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14649717/common.zip)
  - [Scripts](https://drive.google.com/file/d/1AVMC_MBPpqKp0BIrOI-_lLq98QmwRn46/view)
 
 > [!NOTE]
