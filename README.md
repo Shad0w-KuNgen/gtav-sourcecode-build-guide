@@ -134,13 +134,13 @@ cd %~dp0
 game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
 ```
 2. (OPTIONAL) Add additional arguments:
- - `-kbgame` - Start game with game keyboard enabled
- - `-output` - Show console log of game
- - `-rag` - Enable support for RAG, the internal game debugging tool
- - `-ragUseOwnWindow` - Combined with `-rag` to make game run outside of RAG window
+ - `-kbgame` - Start game with game keyboard enabled.
+ - `-output` - Show console log of game.
+ - `-rag` - Enable support for RAG, the internal game debugging tool.
+ - `-ragUseOwnWindow` - Use it with `-rag` parameter to make game run outside of RAG Render Window.
  - `-DoReleaseStartup` - Start real Story Mode on launch
  - `-sc_DisableForbiddenVehicleRemoval` - DLC Cars will not get lost.
- - Additional standard game arguments can be added as well
+ - Additional standard game arguments can be added as well.
 3. (OPTIONAL) Launch RAG with the following commands in Command Prompt
 ```batch
 X:
