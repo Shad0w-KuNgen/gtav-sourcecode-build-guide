@@ -35,7 +35,8 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
  - [Scripts](https://drive.google.com/file/d/1AVMC_MBPpqKp0BIrOI-_lLq98QmwRn46/view)
 
 > [!NOTE]
->	It is recommended to create a virtual machine for this build process, although the build process can be done on your PC. VMWare/Hyper-V are recommended to run the VM due to their performance.
+>	It is recommended to create a virtual machine for this build process, although the build process can be done on your Real PC.<br>
+>       VMWare/Hyper-V are recommended to run the VM due to their performance.
 
 ## Prerequisite Setup
 1. Install DirectX SDK June 2010
@@ -63,7 +64,7 @@ setx /m RS_TOOLSROOT X:\gta5\tools_ng
 setx /m DXSDK_DIR "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)"
 setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 ```
-10. To ensure changes are finalized, restart build machine
+10. To ensure changes are finalized, restart build machine.
 
 ## Patching The Source Code
 1. Open `rush_patches-master.zip`
@@ -147,7 +148,7 @@ setenv
 cd ..\..\tools_ng\bin\rag
 rag
 ```
-4. (OPTIONAL) Copy [Goldberg](https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/jobs/4247811310/artifacts/download) patch into game directory, make sure to overwrite
+4. (OPTIONAL) If your game is from Steam, Copy [Goldberg](https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/jobs/4247811310/artifacts/download) patch into game directory, make sure to overwrite
 5. Run `launch.bat`
 
 ## Debug Build Controls
