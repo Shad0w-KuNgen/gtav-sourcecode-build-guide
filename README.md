@@ -162,7 +162,7 @@ LSHIFT - Left shift
 RSHIFT - Right shift.
 
 Main keybinds:
-CTRL + TAB -> Switch between game keyboards. Available are debug, marketing, game and roleplay.
+CTRL + TAB -> Switch between game keyboards. Available are debug, marketing, game and replay.
 
 Debug Keybinds:
 Backtick ---> Toggle scene information.
