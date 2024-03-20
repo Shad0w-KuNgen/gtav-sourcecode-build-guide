@@ -139,6 +139,7 @@ game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
  - `-rag` - Enable support for RAG, the internal game debugging tool
  - `-ragUseOwnWindow` - Combined with `-rag` to make game run outside of RAG window
  - `-DoReleaseStartup` - Start real Story Mode on launch
+ - `-sc_DisableForbiddenVehicleRemoval` - DLC Cars will not get lost.
  - Additional standard game arguments can be added as well
 3. (OPTIONAL) Launch RAG with the following commands in Command Prompt
 ```batch
