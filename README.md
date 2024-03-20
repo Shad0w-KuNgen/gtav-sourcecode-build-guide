@@ -38,18 +38,18 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
 >	It is recommended to create a virtual machine for this build process, although the build process can be done on your PC. VMWare/Hyper-V are recommended to run the VM due to their performance.
 
 ## Prerequisite Setup
-1. Install Visual Studio 2012
+1. Install DirectX SDK June 2010
+2. Install Visual Studio 2012
 	- Uncheck all optional components in the installer **except "Microsoft Foundation Classes for C++"** to save space, none of them are needed for the build.
-2. Install Update 4 for Visual Studio 2012
-3. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
+3. Install Update 4 for Visual Studio 2012
+4. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
 	- If you encounter the error that the installer is "Blocked by your administrator", follow these steps:
 		1. Hold Shift and right click the `incredibuild4_0.exe` file, select "Copy as path"
 		2. Open Command Prompt as Administrator
 		3. Paste the path and press Enter
 	- Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
-4. Install DirectX SDK June 2010
 5. Install OpenIV
-6. Create X:\ drive	
+6. Create X:\ drive by following these steps at the bottom
 	1. Open Command Prompt
 	2. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
 		- ex. `net use X: \\localhost\c$\Users\abc\Desktop\GTA /persistent:yes` for working folder `C:\Users\abc\Desktop\GTA`
