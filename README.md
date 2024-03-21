@@ -53,21 +53,21 @@ Github edition with fixed links and added some files and features!<br>Based on t
    - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
 6. Install OpenIV
 7. Create X:\ drive by following these steps at the bottom
-   8. Open Command Prompt
-   9. Create a new folder called "GTA" to the Desktop 
-   1. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
+   1. Open Command Prompt
+   2. Create a new folder called "GTA" to the Desktop 
+   3. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
        - Example: `net use X: \\localhost\c$\Users\abcd\Desktop\GTA /persistent:yes`
-2. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
+8. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
    - By the end, you should have the folders `X:\gta5\src`, `X:\gta5\script`, and `X:\gta5\tools_ng`. If the paths are different or some folders are missing, try re-extracting or moving as needed.
-3. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
-4. Copy all folders in `dll_patches.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
-5. Open Command Prompt as Administrator and run the following commands, then close:
+9. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
+10. Copy all folders in `dll_patches.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
+11. Open Command Prompt as Administrator and run the following commands, then close:
 ```batch
 setx /m RS_TOOLSROOT X:\gta5\tools_ng
 setx /m DXSDK_DIR "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)"
 setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 ```
-15. To ensure changes are finalized, restart build machine.
+12. To ensure changes are finalized, restart build machine.
 
 ## Patching The Source Code
 1. Open `rush_patches-master.zip`
