@@ -9,12 +9,13 @@ Github edition with fixed links and added some files and features!<br>Based on t
 ### Base
  - Minimum 150GB Free Space
  - GTA V Files from Steam, Epic Games or Social Club (Minimum v2699)
+    - Cracked Game is not recommended, in my opinion ther are maybe some problems occur. 
  - GTAVSP.7z<br>
- **Want to have the source code? [See Here](/misc/gtavsourcecodelinks.txt) for the links and magnet.**<br>
- You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
- To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`<br>
- Archive password: `Mi76#b>9mRed`
- - [update.rpf and update2.rpf from GTA V build 2699](https://mega.nz/folder/O1UFlaAB#mqhLDQT7p77sMUnANJDjmA/file/Ph9FlQSK)
+    - **Want to have the source code? [See Here](/misc/gtavsourcecodelinks.txt) for the links and magnet.**<br>
+      - You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
+      - To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`<br>
+      - Archive password: `Mi76#b>9mRed`
+ - [update.rpf and update2.rpf from GTA V build 2699](https://mega.nz/folder/O1UFlaAB#mqhLDQT7p77sMUnANJDjmA/file/Ph9FlQSK) 
 
 ### Dependencies
  - Windows 10/11
@@ -24,8 +25,11 @@ Github edition with fixed links and added some files and features!<br>Based on t
     - [Update 4 for Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012%20Update%204/mu_visual_studio_2012_update_4_x86_dvd_3161759.iso)
  - [DirectX SDK June 2010](https://download.microsoft.com/download/A/E/7/AE743F1F-632B-4809-87A9-AA1BB3458E31/DXSDK_Jun10.exe)
  - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/)
+    - This is only needed for Compiling Shaders and Game Scripts.
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
+    - For extracting the **GTAVSP.7z** archive.
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
+    - For editing the game files.
 
 ### Miscellaneous
  - [Rush Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641602/rush_patches-master.zip)
@@ -40,8 +44,7 @@ Github edition with fixed links and added some files and features!<br>Based on t
 >       VMWare/Hyper-V are recommended to run the VM due to their performance.
 
 ## Prerequisite Setup
-1. Install DirectX SDK June 2010
-2. Install 7Zip
+1. Install DirectX SDK June 2010 and 7Zip
 3. Install Visual Studio 2012
    - Uncheck all optional components in the installer **except "Microsoft Foundation Classes for C++"** to save space, none of them are needed for the build.
 4. Install Update 4 for Visual Studio 2012
