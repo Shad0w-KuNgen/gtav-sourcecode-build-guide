@@ -42,7 +42,7 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
 1. Install DirectX SDK June 2010
 2. Install 7Zip
 3. Install Visual Studio 2012
-	- Uncheck all optional components in the installer **except "Microsoft Foundation Classes for C++"** to save space, none of them are needed for the build.
+   - Uncheck all optional components in the installer **except "Microsoft Foundation Classes for C++"** to save space, none of them are needed for the build.
 4. Install Update 4 for Visual Studio 2012
 5. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
    - If you encounter the error that the installer is "Blocked by your administrator", follow these steps:
@@ -54,19 +54,19 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
 7. Create X:\ drive by following these steps at the bottom
 8. Open Command Prompt
 9. Create a new folder called "GTA" to the Desktop 
-10. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
+1. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
    - Example: `net use X: \\localhost\c$\Users\abcd\Desktop\GTA /persistent:yes`
-6. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
-	- By the end, you should have the folders `X:\gta5\src`, `X:\gta5\script`, and `X:\gta5\tools_ng`. If the paths are different or some folders are missing, try re-extracting or moving as needed.
-11. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
-12. Copy all folders in `dll_patches.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
-13. Open Command Prompt as Administrator and run the following commands, then close:
+2. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
+   - By the end, you should have the folders `X:\gta5\src`, `X:\gta5\script`, and `X:\gta5\tools_ng`. If the paths are different or some folders are missing, try re-extracting or moving as needed.
+3. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
+4. Copy all folders in `dll_patches.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
+5. Open Command Prompt as Administrator and run the following commands, then close:
 ```batch
 setx /m RS_TOOLSROOT X:\gta5\tools_ng
 setx /m DXSDK_DIR "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)"
 setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 ```
-14. To ensure changes are finalized, restart build machine.
+15. To ensure changes are finalized, restart build machine.
 
 ## Patching The Source Code
 1. Open `rush_patches-master.zip`
@@ -75,18 +75,18 @@ setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 
 ## Building The Game Binary
 1. Run `X:\gta5\src\dev_ng\game\VS_Project\load_sln_unity_2012.bat`
-	- If prompted with "How do you want to open this file?", check "Always use this app to open .sln files" and click OK
+	- If prompted with "How do you want to open this file?", check "Always use this app to open .sln files" and click OK.
 2. Once the solution loads, open the dropdown menu that says "Debug" at the top, select "Configuration Manager"
 3. Change "Active Solution Platform" to "x64" and close the configuration window
 4. Hold Ctrl key and click all projects under "GameLibs" and "Rage", right-click and select "Properties"
 5. In the "Configuration" dropdown, select "All Configurations"
 6. Select `C/C++ > All options`, under "Look for options or switches", search "err" and set "Treat Warnings as Errors" to "No (/WX-)", then click "Apply" and "OK"
-   - For faster compiles, search "mul" and set "Multiprocessor Compilation" to "Yes (/MP)"
-   - If you get the error `C1060: Compiler is out of heap space` during build, come back to the above setting and turn it off
+   - For faster compiles, search "mul" and set "Multiprocessor Compilation" to "Yes (/MP)".
+   - If you get the error `C1060: Compiler is out of heap space` during build, come back to the above setting and turn it off.
 7. Right-click the "game" project and select "Properties" and do step 5 again
 8. Change build the type at the top of the window from "Debug" to "BankRelease"
-9. At the top of the window, select `Build > Build Solution` and wait for build to finish
-10. Copy output binary to game folder
+9. At the top of the window, select `Build > Build Solution` and wait for build to finish.
+10. Copy output binary to game folder.
 
 > [!NOTE]
 > Building shaders and scripts can be skipped using the prebuilt files above. These steps are here to allow modding or for those who prefer to build from source as much as possible.
@@ -121,7 +121,7 @@ ragScriptEditor
 2. Select the game folder and click "Continue"
 3. Open `GTA V\update\update2.rpf\x64\levels\gta5\script`
 4. Click the "Edit mode" button, and copy `X:\gta5\titleupdate\dev_ng\x64\levels\gta5\script\script.rpf` to the OpenIV window
-5. (OPTIONAL) Fix Story Mode
+5. [IMPORTANT] Fix Story Mode
 	1. Open `GTA V\update\update.rpf\common\data` and make sure "Edit Mode" is enabled
 	2. Under "XML Text Files", right-click `gameconfig.xml` and click "Edit"
 	3. Under "Search", type "51000"
@@ -144,7 +144,7 @@ game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
  - `-rag` - Enable support for RAG, the internal game debugging tool.
  - `-ragUseOwnWindow` - Use it with `-rag` parameter to make game run outside of RAG Render Window.
  - `-DoReleaseStartup` - Start real Story Mode on launch, Ignore if it says unknown parameter/command.
- - `-sc_DisableForbiddenVehicleRemoval` - This parameter allows to spawn and use the DLC and some other vehicles without getting destroyed/despawned
+ - `-sc_DisableForbiddenVehicleRemoval` - This parameter allows DLC and Other Cars without getting removed.
  - Additional standard game arguments can be added as well.
 3. (OPTIONAL) Launch RAG with the following commands in Command Prompt
 ```batch
