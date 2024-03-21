@@ -66,6 +66,7 @@ Github edition with fixed links and added some files and features!<br>Based on t
 setx /m RS_TOOLSROOT X:\gta5\tools_ng
 setx /m DXSDK_DIR "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)"
 setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
+setx /m RS_PROJECT gta5
 ```
 12. To ensure changes are finalized, restart build machine.
 
