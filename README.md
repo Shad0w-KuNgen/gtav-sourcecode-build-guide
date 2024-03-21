@@ -40,17 +40,18 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
 
 ## Prerequisite Setup
 1. Install DirectX SDK June 2010
-2. Install Visual Studio 2012
+2. Install 7Zip
+3. Install Visual Studio 2012
 	- Uncheck all optional components in the installer **except "Microsoft Foundation Classes for C++"** to save space, none of them are needed for the build.
-3. Install Update 4 for Visual Studio 2012
-4. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
+4. Install Update 4 for Visual Studio 2012
+5. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
 	- If you encounter the error that the installer is "Blocked by your administrator", follow these steps:
 		1. Hold Shift and right click the `incredibuild4_0.exe` file, select "Copy as path"
 		2. Open Command Prompt as Administrator
 		3. Paste the path and press Enter
 	- Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
-5. Install OpenIV
-6. Create X:\ drive by following these steps at the bottom
+6. Install OpenIV
+7. Create X:\ drive by following these steps at the bottom
 	1. Open Command Prompt
 	2. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
 		- ex. `net use X: \\localhost\c$\Users\abc\Desktop\GTA /persistent:yes` for working folder `C:\Users\abc\Desktop\GTA`
@@ -139,7 +140,7 @@ game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
  - `-rag` - Enable support for RAG, the internal game debugging tool.
  - `-ragUseOwnWindow` - Use it with `-rag` parameter to make game run outside of RAG Render Window.
  - `-DoReleaseStartup` - Start real Story Mode on launch
- - `-sc_DisableForbiddenVehicleRemoval` - DLC Cars will not get lost.
+ - `-sc_DisableForbiddenVehicleRemoval` - This parameter allows to spawn and use the DLC and some other vehicles without getting destroyed/despawned
  - Additional standard game arguments can be added as well.
 3. (OPTIONAL) Launch RAG with the following commands in Command Prompt
 ```batch
