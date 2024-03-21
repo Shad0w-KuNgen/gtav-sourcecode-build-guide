@@ -92,8 +92,9 @@ setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 
 ## Building Shaders
 1. Under "Shaders", right click the "shaders_rc" project and click "Build"
-    - If you building in "BankRelease", Dont forget to build shaders with "Debug Win32 4.0" to "Release Win32 4.0" or "Release Win32 5.0" in **Configuration Manager**.
+    - If you building in "BankRelease", Dont forget to build shaders with "Release Win32 4.0" or "Release Win32 5.0" in **Configuration Manager**.
     - Also, the same thing needs to apply to "shaders_dependency", Change "Debug" to "Release" in **Configuration Manager**
+    - **If you compiling with Debug, then ignore the steps at the top and continue reading the tutorial.**
 2. (OPTIONAL) Build low quality shaders
 	1. Right click the "shaders_rc" project and click "Properties"
 	2. Select `Configuration Properties > NMake`
