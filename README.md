@@ -10,7 +10,7 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
  - Minimum 150GB Free Space
  - GTA V Files from Steam, Epic Games or Social Club (Minimum v2699)
  - GTAVSP.7z<br>
- Want to have the source code? **[See Here](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/blob/main/misc/gtavsourcecodelinks.txt) for the links and magnet.**<br>
+ **Want to have the source code? [See Here](/misc/gtavsourcecodelinks.txt) for the links and magnet.**<br>
  You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`<br>
  To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`<br>
  Archive password: `Mi76#b>9mRed`
@@ -31,7 +31,7 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
  - [DLL Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641382/dll_patches.zip)
 
 ## Prebuilt Files
- - [Shaders](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14649717/common.zip)
+ - [Shaders](/gtav-sourcecode-build-guide/files/14649717/common.zip)
  - [Scripts](https://drive.google.com/file/d/1AVMC_MBPpqKp0BIrOI-_lLq98QmwRn46/view)
 
 > [!NOTE]
