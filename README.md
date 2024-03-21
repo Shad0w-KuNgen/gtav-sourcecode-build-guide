@@ -31,7 +31,7 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
  - [DLL Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641382/dll_patches.zip)
 
 ## Prebuilt Files
- - [Shaders](/files/14649717/common.zip)
+ - [Shaders](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14649717/common.zip)
  - [Scripts](https://drive.google.com/file/d/1AVMC_MBPpqKp0BIrOI-_lLq98QmwRn46/view)
 
 > [!NOTE]
