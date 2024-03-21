@@ -259,7 +259,7 @@ Ctrl + Alt + I ---> Toggle weapon/inputs information.
 Here is the end of the guide, I hope this tutorial was able to help you :)<br>
 Some peoples are scaring to share these type of things, i can understand that because they just dont want to get sued.<br>
 
-There are some videos out there about the debug build, a guy actually beat and finished the game while streaming with dev_ng that compiled with Debug mode, Here is the link:
+There are some videos out there about the debug build,<br>A guy actually beat and finished the game while streaming with dev_ng that compiled with Debug mode, Here is the link:
 
 1. Episode One: https://www.youtube.com/watch?v=Nlp60Xhkgbk
 2. Final Episode: https://www.youtube.com/watch?v=QQS0-32voms
