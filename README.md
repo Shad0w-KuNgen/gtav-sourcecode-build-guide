@@ -253,3 +253,26 @@ SHIFT + U ---> Spawns a vehicle and makes your driver auto.
 
 Ctrl + Alt + I ---> Toggle weapon/inputs information.
 ```
+
+# Epilogue
+
+Here is the end of the guide, I hope this tutorial was able to help you :)<br>
+Some peoples are scaring to share these type of things, i can understand that because they just dont want to get sued.<br>
+
+There are some videos out there about the debug build, a guy actually beat and finished the game while streaming with dev_ng that compiled with Debug mode, Here is the link:
+1. Episode One: https://www.youtube.com/watch?v=Nlp60Xhkgbk
+2. Final Episode: https://www.youtube.com/watch?v=QQS0-32voms
+3. A video about the Source Code: https://www.youtube.com/watch?v=bndLvZIuXHg
+I actually kinda like this guy, he looks like Matt Stonie with some programming skills on it :D<br>
+
+Just enjoy the game and please star or fork my repository please :3<br>
+
+You can see some screenshots at the bottom about the game.
+
+## Screenshots
+![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/bbda2dd9-eb61-482b-a55b-02496440b643)
+![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/6441d5d0-6393-41a1-80c1-f1afe8b03119)
+![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/c17a2097-13db-49e0-ba4d-b86cec4c74bc)
+![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/d4ad19d4-b1ce-49f8-a653-b16b70227c93)
+
+
