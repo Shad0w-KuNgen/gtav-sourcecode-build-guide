@@ -139,7 +139,7 @@ game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
  - `-output` - Show console log of game.
  - `-rag` - Enable support for RAG, the internal game debugging tool.
  - `-ragUseOwnWindow` - Use it with `-rag` parameter to make game run outside of RAG Render Window.
- - `-DoReleaseStartup` - Start real Story Mode on launch
+ - `-DoReleaseStartup` - Start real Story Mode on launch, Ignore if it says unknown parameter/command.
  - `-sc_DisableForbiddenVehicleRemoval` - This parameter allows to spawn and use the DLC and some other vehicles without getting destroyed/despawned
  - Additional standard game arguments can be added as well.
 3. (OPTIONAL) Launch RAG with the following commands in Command Prompt
