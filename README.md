@@ -18,11 +18,10 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
 
 ### Dependencies
  - Windows 10/11 ([Enterprise LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended)
-   - For activating Windows, See: ["activatewindows.md"](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/blob/main/misc/activatewindows.md) 
  - [Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso)
  - [Update 4 for Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012%20Update%204/mu_visual_studio_2012_update_4_x86_dvd_3161759.iso)
  - [DirectX SDK June 2010](https://download.microsoft.com/download/A/E/7/AE743F1F-632B-4809-87A9-AA1BB3458E31/DXSDK_Jun10.exe)
- - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/) (Only needed for compiling shaders and scripts)
+ - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/)
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
 
