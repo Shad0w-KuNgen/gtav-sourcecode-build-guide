@@ -35,7 +35,7 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
  - [Scripts](https://drive.google.com/file/d/1AVMC_MBPpqKp0BIrOI-_lLq98QmwRn46/view)
 
 > [!NOTE]
->	It is recommended to create a virtual machine for this build process, although the build process can be done on your Real PC.<br>
+>	It is recommended to create a virtual machine for this build process,<br>although the build process can be done on your Real PC.<br>
 >       VMWare/Hyper-V are recommended to run the VM due to their performance.
 
 ## Prerequisite Setup
