@@ -45,27 +45,28 @@ Github edition with fixed links and added some files!<br>Based on this [rentry.c
 	- Uncheck all optional components in the installer **except "Microsoft Foundation Classes for C++"** to save space, none of them are needed for the build.
 4. Install Update 4 for Visual Studio 2012
 5. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
-	- If you encounter the error that the installer is "Blocked by your administrator", follow these steps:
-		1. Hold Shift and right click the `incredibuild4_0.exe` file, select "Copy as path"
-		2. Open Command Prompt as Administrator
-		3. Paste the path and press Enter
-	- Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
+   - If you encounter the error that the installer is "Blocked by your administrator", follow these steps:
+   1. Hold Shift and right click the `incredibuild4_0.exe` file, select "Copy as path"
+   2. Open Command Prompt as Administrator
+   3. Paste the path and press Enter
+   - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
 6. Install OpenIV
 7. Create X:\ drive by following these steps at the bottom
-	1. Open Command Prompt
-	2. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
-		- ex. `net use X: \\localhost\c$\Users\abc\Desktop\GTA /persistent:yes` for working folder `C:\Users\abc\Desktop\GTA`
+8. Open Command Prompt
+9. Create a new folder called "GTA" to the Desktop 
+10. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
+   - Example: `net use X: \\localhost\c$\Users\abcd\Desktop\GTA /persistent:yes`
 6. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
 	- By the end, you should have the folders `X:\gta5\src`, `X:\gta5\script`, and `X:\gta5\tools_ng`. If the paths are different or some folders are missing, try re-extracting or moving as needed.
-7. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
-8. Copy all folders in `dll_patches.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
-9. Open Command Prompt as Administrator and run the following commands, then close:
+11. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
+12. Copy all folders in `dll_patches.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
+13. Open Command Prompt as Administrator and run the following commands, then close:
 ```batch
 setx /m RS_TOOLSROOT X:\gta5\tools_ng
 setx /m DXSDK_DIR "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)"
 setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 ```
-10. To ensure changes are finalized, restart build machine.
+14. To ensure changes are finalized, restart build machine.
 
 ## Patching The Source Code
 1. Open `rush_patches-master.zip`
@@ -80,15 +81,15 @@ setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 4. Hold Ctrl key and click all projects under "GameLibs" and "Rage", right-click and select "Properties"
 5. In the "Configuration" dropdown, select "All Configurations"
 6. Select `C/C++ > All options`, under "Look for options or switches", search "err" and set "Treat Warnings as Errors" to "No (/WX-)", then click "Apply" and "OK"
-	- For faster compiles, search "mul" and set "Multiprocessor Compilation" to "Yes (/MP)"
-	- If you get the error `C1060: Compiler is out of heap space` during build, come back to the above setting and turn it off
+   - For faster compiles, search "mul" and set "Multiprocessor Compilation" to "Yes (/MP)"
+   - If you get the error `C1060: Compiler is out of heap space` during build, come back to the above setting and turn it off
 7. Right-click the "game" project and select "Properties" and do step 5 again
 8. Change build the type at the top of the window from "Debug" to "BankRelease"
 9. At the top of the window, select `Build > Build Solution` and wait for build to finish
 10. Copy output binary to game folder
 
 > [!NOTE]
->	Building shaders and scripts can be skipped using the prebuilt files above. These steps are here to allow modding or for those who prefer to build from source as much as possible.
+> Building shaders and scripts can be skipped using the prebuilt files above. These steps are here to allow modding or for those who prefer to build from source as much as possible.
 
 ## Building Shaders
 1. Under "Shaders", right click the "shaders_rc" project and click "Build"
@@ -96,11 +97,11 @@ setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
     - Also, the same thing needs to apply to "shaders_dependency", Change "Debug" to "Release" in **Configuration Manager**
     - **If you compiling with Debug, then ignore the steps at the top and continue reading the tutorial.**
 2. (OPTIONAL) Build low quality shaders
-	1. Right click the "shaders_rc" project and click "Properties"
-	2. Select `Configuration Properties > NMake`
-	3. Under "General", change all command lines from ending with `win32_40.bat` to ending with `win32_40_lq.bat`, then click "Apply" and "OK"
-	4. Rebuild shaders
-3. Copy `X:\gta5\titleupdate\dev_ng\common` to game directory
+   1. Right click the "shaders_rc" project and click "Properties"
+   2. Select `Configuration Properties > NMake`
+   3. Under "General", change all command lines from ending with `win32_40.bat` to ending with `win32_40_lq.bat`, then click "Apply" and "OK"
+   4. Rebuild shaders
+   3. Copy `X:\gta5\titleupdate\dev_ng\common` to game directory
 
 ## Building Game Scripts
 1. Open Command Prompt
