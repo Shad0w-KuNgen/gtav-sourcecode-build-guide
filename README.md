@@ -141,10 +141,9 @@ ragScriptEditor
 1. In the game directory, create a file named `launch.bat` and add these contents:
 ```batch
 cd %~dp0
-GTA5.exe -noSocialClub -nokeyboardhook -nonetlogs
+game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
 ```
-2. Change the name of the executable "game_win64_bankrelease.exe" to "GTA5.exe"
-3. (OPTIONAL) Add additional arguments:
+2. (OPTIONAL) Add additional arguments:
  - `-kbgame` - Start game with game keyboard enabled.
  - `-output` - Show console log of game.
  - `-rag` - Enable support for RAG, the internal game debugging tool.
@@ -154,7 +153,7 @@ GTA5.exe -noSocialClub -nokeyboardhook -nonetlogs
  - `-sc_DisableForbiddenVehicleRemoval` - This parameter allows DLC and Other Cars without getting removed.
     - If you using RAG, go to "Vehicles" tab and create widgets, after that Click "Creation Options" and turn on "Create as personal vehicle" to prevent game crashes. 
  - Additional standard game arguments can be added as well.
-4. (OPTIONAL) Launch RAG with the following commands in Command Prompt
+3. (OPTIONAL) Launch RAG with the following commands in Command Prompt
 ```batch
 X:
 cd X:\gta5\src\dev_ng
@@ -162,8 +161,8 @@ setenv
 cd ..\..\tools_ng\bin\rag
 rag
 ```
-5. (OPTIONAL) If your game is from Steam, Copy [Goldberg](https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/jobs/4247811310/artifacts/download) patch into game directory, make sure to overwrite
-6. Run `launch.bat`
+4. (OPTIONAL) If your game is from Steam, Copy [Goldberg](https://gitlab.com/Mr_Goldberg/goldberg_emulator/-/jobs/4247811310/artifacts/download) patch into game directory, make sure to overwrite
+5. Run `launch.bat`
 
 ## Debug Build Controls
 
