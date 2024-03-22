@@ -45,7 +45,7 @@ Github edition with fixed links and added some files and features!<br>Based on t
 >       VMWare/Hyper-V are recommended to run the VM due to their performance.
 
 ## Prerequisite Setup
-1. Install DirectX SDK June 2010 and 7Zip
+1. Install DirectX SDK June 2010 and 7-Zip
 2. Install Visual Studio 2012
    - Uncheck all optional components in the installer **except "Microsoft Foundation Classes for C++"** to save space, none of them are needed for the build.
 3. Install Update 4 for Visual Studio 2012
