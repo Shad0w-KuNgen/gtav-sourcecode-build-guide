@@ -27,7 +27,7 @@ Github edition with fixed links and added some files and features!<br>Based on t
  - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/)
     - This is only needed for Compiling Shaders and Game Scripts.
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
-    - For extracting the **GTAVSP.7z** archive.
+    - For extracting the archives.
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
     - For editing the game files.
 
