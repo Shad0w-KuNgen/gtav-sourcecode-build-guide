@@ -26,6 +26,7 @@ Github edition with fixed links and added some files and features!<br>Based on t
  - [DirectX SDK June 2010](https://download.microsoft.com/download/A/E/7/AE743F1F-632B-4809-87A9-AA1BB3458E31/DXSDK_Jun10.exe)
  - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/)
     - This is only needed for Compiling Shaders and Game Scripts.
+ - (OPTIONAL) [3D Studio Max 2010 SDK](https://archive.org/details/sdk-3ds-max-2010)
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
     - For extracting the archives.
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
@@ -45,15 +46,16 @@ Github edition with fixed links and added some files and features!<br>Based on t
 
 ## Prerequisite Setup
 1. Install DirectX SDK June 2010 and 7Zip
-3. Install Visual Studio 2012
+2. Install Visual Studio 2012
    - Uncheck all optional components in the installer **except "Microsoft Foundation Classes for C++"** to save space, none of them are needed for the build.
-4. Install Update 4 for Visual Studio 2012
-5. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
+3. Install Update 4 for Visual Studio 2012
+4. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
    - If you encounter the error that the installer is "Blocked by your administrator", follow these steps:
    1. Hold Shift and right click the `incredibuild4_0.exe` file, select "Copy as path"
    2. Open Command Prompt as Administrator
    3. Paste the path and press Enter
    - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
+5. (OPTIONAL) Install 3D Studio Max 2010 SDK
 6. Install OpenIV
 7. Create X:\ drive by following these steps at the bottom
    1. Open Command Prompt
