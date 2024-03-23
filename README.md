@@ -34,12 +34,12 @@ Github edition with fixed links and added some files and features!<br>Based on t
 ### Miscellaneous
  - [Rush Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641602/rush_patches-master.zip)
  - [DLL Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641382/dll_patches.zip)
+ - (OPTIONAL) [3rdParty Folder](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14733468/3rd.zip)
+    - Put this to `X:\gta5\`
 
 ## Prebuilt Files
  - [Shaders](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14649717/common.zip)
  - [Scripts](https://drive.google.com/file/d/1AVMC_MBPpqKp0BIrOI-_lLq98QmwRn46/view)
- - (OPTIONAL) [3rdParty Folder](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14733468/3rd.zip)
-    - Put this to `X:\gta5\`
 
 > [!NOTE]
 >	It is recommended to create a virtual machine for this build process,<br>although the build process can be done on your Real PC.<br>
