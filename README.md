@@ -58,16 +58,17 @@ Github edition with fixed links and added some files and features!<br>Based on t
    - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
 5. (OPTIONAL) Install 3D Studio Max 2010 SDK
 6. Install OpenIV
-7. Create X:\ drive by following these steps at the bottom
+7. Install Miscellaneous Files
+8. Create X:\ drive by following these steps at the bottom
    1. Open Command Prompt
    2. Create a new folder called "GTA" to the Desktop 
    3. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
        - Example: `net use X: \\localhost\c$\Users\abcd\Desktop\GTA /persistent:yes`
-8. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
+9. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
    - By the end, you should have the folders `X:\gta5\src`, `X:\gta5\script`, and `X:\gta5\tools_ng`. If the paths are different or some folders are missing, try re-extracting or moving as needed.
-9. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
-10. Copy all folders in `dll_patches.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
-11. Open Command Prompt as Administrator and run the following commands, then close:
+10. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
+11. Copy all folders in `dll_patches.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
+12. Open Command Prompt as Administrator and run the following commands, then close:
 ```batch
 setx /m RS_TOOLSROOT X:\gta5\tools_ng
 setx /m DXSDK_DIR "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)"
@@ -275,5 +276,10 @@ You can see some screenshots at the bottom about the game.
 ![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/6441d5d0-6393-41a1-80c1-f1afe8b03119)
 ![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/c17a2097-13db-49e0-ba4d-b86cec4c74bc)
 ![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/d4ad19d4-b1ce-49f8-a653-b16b70227c93)
+
+## Videos
+https://www.youtube.com/watch?v=-RHmcVH4bGQ
+https://www.youtube.com/watch?v=n1xav7Mi4KY
+https://www.youtube.com/watch?v=TPWWho1cW2Y
 
 
