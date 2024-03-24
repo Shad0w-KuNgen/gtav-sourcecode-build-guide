@@ -35,7 +35,9 @@ Github edition with fixed links and added some files and features!<br>Based on t
  - [Rush Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641602/rush_patches-master.zip)
  - [DLL Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641382/dll_patches.zip)
  - (OPTIONAL) [3rdParty Folder](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14733468/3rd.zip)
-    - Put this to `X:\gta5\`
+    - Extract and Put the folder to `X:\gta5\`
+ - (OPTIONAL) [Fixed ShortcutMenu](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14735751/fixedshortcut.zip)
+    - Extract and put the folder to `X:\gta5\tools_ng\bin\` 
 
 ## Prebuilt Files
  - [Shaders](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14649717/common.zip)
@@ -56,9 +58,8 @@ Github edition with fixed links and added some files and features!<br>Based on t
    2. Open Command Prompt as Administrator
    3. Paste the path and press Enter
    - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
-5. (OPTIONAL) Install 3D Studio Max 2010 SDK
-6. Install OpenIV
-7. Install Miscellaneous Files
+5. Install OpenIV
+6. Install Miscellaneous Files
 8. Create X:\ drive by following these steps at the bottom
    1. Open Command Prompt
    2. Create a new folder called "GTA" to the Desktop 
