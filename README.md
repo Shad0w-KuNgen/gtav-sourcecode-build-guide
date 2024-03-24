@@ -3,7 +3,7 @@
 
 Github edition with fixed links and added some files and features!<br>Based on this [rentry.co](https://www.rentry.co/gtavbuildguide) tutorial, But this tutorial is better than that.<br>
 
-**Working Status:** Working and Tested by me!
+**Working Status:** [See here for the status of tools and the game](/workingstatus.md)
 
 ## Requirements
 ### Base
@@ -266,7 +266,6 @@ Ctrl + Alt + I ---> Toggle weapon/inputs information.
 # Epilogue
 
 Here is the end of the guide, I hope this tutorial was able to help you :)<br>
-Some peoples are scaring to share these type of things, i can understand that because they just dont want to get sued.<br>
 Just enjoy the game and please star or fork my repository please :3<br>
 
 You can see some screenshots at the bottom about the game.
