@@ -25,7 +25,6 @@ Github edition with fixed links and added some files and features!<br>Based on t
  - [DirectX SDK June 2010](https://download.microsoft.com/download/A/E/7/AE743F1F-632B-4809-87A9-AA1BB3458E31/DXSDK_Jun10.exe)
  - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/)
     - This is only needed for Compiling Shaders and Game Scripts.
- - (OPTIONAL) [3D Studio Max 2010 SDK](https://archive.org/details/sdk-3ds-max-2010)
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
     - For extracting the archives.
  - [OpenIV](https://openiv.com/WebIV/guest.php?get=1)
@@ -37,7 +36,8 @@ Github edition with fixed links and added some files and features!<br>Based on t
  - (OPTIONAL) [3rdParty Folder](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14733468/3rd.zip)
     - Extract and Put the folder to `X:\gta5\`
  - (OPTIONAL) [Fixed ShortcutMenu](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14735751/fixedshortcut.zip)
-    - Extract and put the folder to `X:\gta5\tools_ng\bin\` 
+    - Extract and put the folder to `X:\gta5\tools_ng\bin\`
+ - (OPTIONAL) [3D Studio Max 2010 SDK](https://archive.org/details/sdk-3ds-max-2010)
 
 ## Prebuilt Files
  - [Shaders](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14649717/common.zip)
